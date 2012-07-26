@@ -6,15 +6,33 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		51B7CC6915C0EEDF00749A76 /* TKInterceptURLProtocolDocumentation */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 51B7CC6A15C0EEDF00749A76 /* Build configuration list for PBXAggregateTarget "TKInterceptURLProtocolDocumentation" */;
+			buildPhases = (
+				51B7CC6D15C0EEE400749A76 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = TKInterceptURLProtocolDocumentation;
+			productName = TKInterceptURLProtocolDocumentation;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		51B7CC3415C0ED6A00749A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7CC3315C0ED6A00749A76 /* Foundation.framework */; };
-		51B7CC3A15C0ED6A00749A76 /* TKInterceptURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7CC3915C0ED6A00749A76 /* TKInterceptURLProtocol.m */; };
 		51B7CC4215C0ED6A00749A76 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7CC4115C0ED6A00749A76 /* SenTestingKit.framework */; };
 		51B7CC4415C0ED6A00749A76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7CC4315C0ED6A00749A76 /* UIKit.framework */; };
 		51B7CC4515C0ED6A00749A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7CC3315C0ED6A00749A76 /* Foundation.framework */; };
 		51B7CC4815C0ED6A00749A76 /* libTKInterceptURLProtocol.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51B7CC3015C0ED6A00749A76 /* libTKInterceptURLProtocol.a */; };
 		51B7CC4E15C0ED6A00749A76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51B7CC4C15C0ED6A00749A76 /* InfoPlist.strings */; };
-		51B7CC5115C0ED6A00749A76 /* TKInterceptURLProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7CC5015C0ED6A00749A76 /* TKInterceptURLProtocolTests.m */; };
+		51B7CC5E15C0EDC700749A76 /* TKInterceptURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B7CC5B15C0EDC700749A76 /* TKInterceptURLProtocol.h */; };
+		51B7CC5F15C0EDC700749A76 /* TKInterceptURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7CC5C15C0EDC700749A76 /* TKInterceptURLProtocol.m */; };
+		51B7CC6015C0EDC700749A76 /* TKInterceptURLProtocolDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B7CC5D15C0EDC700749A76 /* TKInterceptURLProtocolDelegate.h */; };
+		51B7CC6415C0EDF500749A76 /* TKInterceptURLProtocolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B7CC6315C0EDF500749A76 /* TKInterceptURLProtocolTests.m */; };
+		51B7CC6615C0EE4200749A76 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 51B7CC6515C0EE4200749A76 /* README.md */; };
+		51B7CC6815C0EE4C00749A76 /* TODO.md in Resources */ = {isa = PBXBuildFile; fileRef = 51B7CC6715C0EE4C00749A76 /* TODO.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,16 +48,19 @@
 /* Begin PBXFileReference section */
 		51B7CC3015C0ED6A00749A76 /* libTKInterceptURLProtocol.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTKInterceptURLProtocol.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B7CC3315C0ED6A00749A76 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		51B7CC3715C0ED6A00749A76 /* TKInterceptURLProtocol-Prefix.pch */ = {isa = PBXFileReference; path = "TKInterceptURLProtocol-Prefix.pch"; sourceTree = "<group>"; };
-		51B7CC3815C0ED6A00749A76 /* TKInterceptURLProtocol.h */ = {isa = PBXFileReference; path = TKInterceptURLProtocol.h; sourceTree = "<group>"; };
-		51B7CC3915C0ED6A00749A76 /* TKInterceptURLProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKInterceptURLProtocol.m; sourceTree = "<group>"; };
+		51B7CC3715C0ED6A00749A76 /* TKInterceptURLProtocol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TKInterceptURLProtocol-Prefix.pch"; sourceTree = "<group>"; };
 		51B7CC4015C0ED6A00749A76 /* TKInterceptURLProtocolTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKInterceptURLProtocolTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B7CC4115C0ED6A00749A76 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		51B7CC4315C0ED6A00749A76 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		51B7CC4B15C0ED6A00749A76 /* TKInterceptURLProtocolTests-Info.plist */ = {isa = PBXFileReference; path = "TKInterceptURLProtocolTests-Info.plist"; sourceTree = "<group>"; };
+		51B7CC4B15C0ED6A00749A76 /* TKInterceptURLProtocolTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TKInterceptURLProtocolTests-Info.plist"; sourceTree = "<group>"; };
 		51B7CC4D15C0ED6A00749A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		51B7CC4F15C0ED6A00749A76 /* TKInterceptURLProtocolTests.h */ = {isa = PBXFileReference; path = TKInterceptURLProtocolTests.h; sourceTree = "<group>"; };
-		51B7CC5015C0ED6A00749A76 /* TKInterceptURLProtocolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TKInterceptURLProtocolTests.m; sourceTree = "<group>"; };
+		51B7CC5B15C0EDC700749A76 /* TKInterceptURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKInterceptURLProtocol.h; sourceTree = "<group>"; };
+		51B7CC5C15C0EDC700749A76 /* TKInterceptURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKInterceptURLProtocol.m; sourceTree = "<group>"; };
+		51B7CC5D15C0EDC700749A76 /* TKInterceptURLProtocolDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKInterceptURLProtocolDelegate.h; sourceTree = "<group>"; };
+		51B7CC6215C0EDF500749A76 /* TKInterceptURLProtocolTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKInterceptURLProtocolTests.h; sourceTree = "<group>"; };
+		51B7CC6315C0EDF500749A76 /* TKInterceptURLProtocolTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKInterceptURLProtocolTests.m; sourceTree = "<group>"; };
+		51B7CC6515C0EE4200749A76 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		51B7CC6715C0EE4C00749A76 /* TODO.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +89,8 @@
 		51B7CC2515C0ED6A00749A76 = {
 			isa = PBXGroup;
 			children = (
+				51B7CC6515C0EE4200749A76 /* README.md */,
+				51B7CC6715C0EE4C00749A76 /* TODO.md */,
 				51B7CC3515C0ED6A00749A76 /* TKInterceptURLProtocol */,
 				51B7CC4915C0ED6A00749A76 /* TKInterceptURLProtocolTests */,
 				51B7CC3215C0ED6A00749A76 /* Frameworks */,
@@ -97,8 +120,7 @@
 		51B7CC3515C0ED6A00749A76 /* TKInterceptURLProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				51B7CC3815C0ED6A00749A76 /* TKInterceptURLProtocol.h */,
-				51B7CC3915C0ED6A00749A76 /* TKInterceptURLProtocol.m */,
+				51B7CC5A15C0EDB700749A76 /* Classes */,
 				51B7CC3615C0ED6A00749A76 /* Supporting Files */,
 			);
 			path = TKInterceptURLProtocol;
@@ -115,8 +137,7 @@
 		51B7CC4915C0ED6A00749A76 /* TKInterceptURLProtocolTests */ = {
 			isa = PBXGroup;
 			children = (
-				51B7CC4F15C0ED6A00749A76 /* TKInterceptURLProtocolTests.h */,
-				51B7CC5015C0ED6A00749A76 /* TKInterceptURLProtocolTests.m */,
+				51B7CC6115C0EDDA00749A76 /* Classes */,
 				51B7CC4A15C0ED6A00749A76 /* Supporting Files */,
 			);
 			path = TKInterceptURLProtocolTests;
@@ -131,6 +152,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		51B7CC5A15C0EDB700749A76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51B7CC5B15C0EDC700749A76 /* TKInterceptURLProtocol.h */,
+				51B7CC5C15C0EDC700749A76 /* TKInterceptURLProtocol.m */,
+				51B7CC5D15C0EDC700749A76 /* TKInterceptURLProtocolDelegate.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		51B7CC6115C0EDDA00749A76 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				51B7CC6215C0EDF500749A76 /* TKInterceptURLProtocolTests.h */,
+				51B7CC6315C0EDF500749A76 /* TKInterceptURLProtocolTests.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -138,6 +178,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51B7CC5E15C0EDC700749A76 /* TKInterceptURLProtocol.h in Headers */,
+				51B7CC6015C0EDC700749A76 /* TKInterceptURLProtocolDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +244,7 @@
 			targets = (
 				51B7CC2F15C0ED6A00749A76 /* TKInterceptURLProtocol */,
 				51B7CC3F15C0ED6A00749A76 /* TKInterceptURLProtocolTests */,
+				51B7CC6915C0EEDF00749A76 /* TKInterceptURLProtocolDocumentation */,
 			);
 		};
 /* End PBXProject section */
@@ -212,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51B7CC4E15C0ED6A00749A76 /* InfoPlist.strings in Resources */,
+				51B7CC6615C0EE4200749A76 /* README.md in Resources */,
+				51B7CC6815C0EE4C00749A76 /* TODO.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +276,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		51B7CC6D15C0EEE400749A76 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/appledoc \\\n--project-name \"TKInterceptURLProtocol\" \\\n--project-company \"Tactilize\" \\\n--company-id \"com.tactilize\" \\\n--output build \\\n--docsetutil-path `xcode-select -print-path`/usr/bin/docsetutil \\\n--create-docset \\\n--install-docset \\\n--create-html \\\n--exit-threshold 2 \\\n--no-repeat-first-par \\\nTKInterceptURLProtocol";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -238,7 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B7CC3A15C0ED6A00749A76 /* TKInterceptURLProtocol.m in Sources */,
+				51B7CC5F15C0EDC700749A76 /* TKInterceptURLProtocol.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51B7CC5115C0ED6A00749A76 /* TKInterceptURLProtocolTests.m in Sources */,
+				51B7CC6415C0EDF500749A76 /* TKInterceptURLProtocolTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -366,6 +424,20 @@
 			};
 			name = Release;
 		};
+		51B7CC6B15C0EEDF00749A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		51B7CC6C15C0EEDF00749A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -391,6 +463,14 @@
 			buildConfigurations = (
 				51B7CC5815C0ED6A00749A76 /* Debug */,
 				51B7CC5915C0ED6A00749A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		51B7CC6A15C0EEDF00749A76 /* Build configuration list for PBXAggregateTarget "TKInterceptURLProtocolDocumentation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51B7CC6B15C0EEDF00749A76 /* Debug */,
+				51B7CC6C15C0EEDF00749A76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
