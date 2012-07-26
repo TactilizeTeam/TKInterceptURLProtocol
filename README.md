@@ -17,3 +17,12 @@ _TKInterceptURLProtocol_ is the class that intercept requests and with a delegat
 ### Resources
 
 -none-
+
+
+## Credits
+
+Claus Broch 
+
+Arnaud Coomans
+
+Based on [ILTesting](https://github.com/InfiniteLoopDK/ILTesting)
